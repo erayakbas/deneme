@@ -1,0 +1,52 @@
+public class MyFirstJavaProgram {
+
+
+
+public static void main(String []args) {
+System.out.println("Hello World");
+}
+}
+
+
+if (boolean ifade1)
+     {
+       A işlemleri;
+     }
+     else if (boolean ifade2)
+          {
+           B işlemleri;
+          }
+     else if (boolean ifade3)
+          {
+           C işlemleri;
+          }
+     else {
+           D işlemleri;
+          }
+
+
+
+
+public static void main(String [] args) {
+	     
+		 Scanner klavye=new Scanner(System.in);
+		 
+	
+		 System.out.println("Lütfen üçgenin ilk kenar uzunluğunu yazın");
+		 int a=klavye.nextInt();
+		 
+		 System.out.println("Lütfen üçgenin ikinci kenar uzunluğunu yazın");
+		 int b=klavye.nextInt();
+		 
+		 System.out.println("Lütfen üçgenin ucuncu kenar uzunluğunu yazın");
+		 int c=klavye.nextInt();
+		 
+		 
+		 if (a==b && b==c)
+			 System.out.println("üçgen eşkena");
+		 else if (a==b || a==c || b==c)
+			 System.out.println("üçgen ikizkenar");
+		 else
+			 System.out.println("üçgen çeşitkenar ");
+		 
+	    }
